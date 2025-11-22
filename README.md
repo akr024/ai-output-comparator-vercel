@@ -1,6 +1,6 @@
 # AI Comparator
 
-Compare AI responses side by side - **Both FREE!** ⚡✨
+Compare AI responses side by side
 
 ## Features
 
@@ -19,15 +19,8 @@ Compare AI responses side by side - **Both FREE!** ⚡✨
 **Backend:**
 - Django 4.2.7
 - Python 3.8+
-- Groq API (Llama 3.3 70B) - FREE ⚡
-- Google Generative AI (Gemini) - FREE ✨
-
-## Prerequisites
-
-- Python 3.8+
-- Node.js & npm
-- **Groq API key** - FREE ⚡ ([Get here](https://console.groq.com/keys))
-- **Gemini API key** - FREE ✨ ([Get here](https://aistudio.google.com/apikey))
+- Groq API (Llama 3.3 70B)
+- Google Generative AI (Gemini)
 
 ## Quick Start
 
@@ -39,7 +32,7 @@ cp .env.example .env
 # Edit .env and add your FREE API keys
 ```
 
-Get your FREE keys:
+Get your keys:
 - ⚡ Groq (fastest): https://console.groq.com/keys
 - ✨ Gemini: https://aistudio.google.com/apikey
 
@@ -74,22 +67,3 @@ All endpoints at `http://localhost:3001/api/`:
 - `POST /groq` - Groq only (Llama 3.3 70B)
 - `POST /gemini` - Gemini only
 - `POST /compare` - Compare both
-
-
-## Project Structure
-
-```
-project3/
-├── client/              # React frontend
-│   ├── src/
-│   │   ├── App.jsx     # Main component
-│   │   └── App.css     # Styles
-│   └── package.json
-├── server/              # Django backend
-│   ├── manage.py
-│   ├── requirements.txt
-│   ├── backend.sh      # Startup script
-│   ├── config/         # Django settings
-│   └── api/            # API views & routes
-└── README.md
-```
